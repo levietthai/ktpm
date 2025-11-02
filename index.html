@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm Thiết Kế Phần Mềm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <div class="quiz-header">
+            <h2 id="question-text">Câu hỏi sẽ hiển thị ở đây</h2>
+            <div id="answer-options" class="answer-options">
+                </div>
+        </div>
+        <button id="next-btn" class="next-btn">Câu Tiếp Theo</button>
+    </div>
+
+    <div class="results-container" id="results-container" style="display: none;">
+        <h2>Hoàn thành!</h2>
+        <p>Bạn đã trả lời đúng <span id="score">0</span>/<span id="total-questions">0</span> câu.</p>
+        <button id="restart-btn" class="restart-btn">Chơi Lại</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
